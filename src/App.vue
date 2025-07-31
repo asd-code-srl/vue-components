@@ -7,7 +7,7 @@ const loading = ref(false)
 
 <template>
   <div class="flex h-screen w-screen items-center justify-center">
-    <Button :loading="loading" @click="loading = true">
+    <Button :loading="loading" @click="loading = true" color="error">
       asdasfasdfsadsafasdasfdasdfassafdsadsadsadsadasdsa
     </Button>
   </div>
